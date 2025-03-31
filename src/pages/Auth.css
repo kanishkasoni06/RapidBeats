@@ -1,0 +1,73 @@
+.background{
+    background-color: #313131;
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+
+nav{
+    justify-content: space-between;
+}
+main{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.gradient{
+    background: linear-gradient(45deg, #4000ff, #9d00ff, #006eff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+    color: transparent;
+}
+
+.btnAuth{
+    padding: 0px 20px ;
+    border-radius: 20px;
+    background: white;
+    border: 0;
+}
+.btnAuth:hover{
+    background-color: aliceblue;
+    transform: translateY(1px);
+}
+.signInBtn{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    background: linear-gradient(45deg, #6200ff, #0026ff, #5900ff);    
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.lightText{
+    color: gray;
+}
+.subline{
+    margin: 20px;
+    font-size: large;
+    color: rgb(178, 178, 178);
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+@media screen and (max-width: 510px) {
+    .btnAuth{
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .flex{
+        padding: 15px;
+    }
+    main{
+        margin-top: 20px;
+    }
+}

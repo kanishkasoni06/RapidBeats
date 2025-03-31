@@ -1,0 +1,12 @@
+.cardArtist{
+    background-color: #423a39 !important;
+    color: white !important;
+    border: #4e4747e2 2px solid;
+    /* max-height: 50px; */
+  }
+  .cardArtist:hover{
+    background-color: #554C4B !important;
+  }
+  .cardArtist__title{
+    overflow: visible;
+  }

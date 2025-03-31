@@ -1,0 +1,8 @@
+.searchSuggestions{
+    background-color: #2b2727;
+    cursor: pointer;
+}
+.searchSuggestions:hover{
+    
+    background-color: #433c3b;
+}

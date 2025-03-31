@@ -1,0 +1,15 @@
+.heart {
+  width: 16px;
+  height: 16px;
+  fill: white;
+  cursor: pointer;
+  margin: auto 8px;
+  transition: all 350ms ease-out;
+}
+.heart--big {
+  width: 30px;
+  height: 30px;
+}
+.heart--full {
+  fill: var(--green);
+}

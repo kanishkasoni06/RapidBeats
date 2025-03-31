@@ -1,0 +1,18 @@
+.dropdown-toggle::after{
+    display: none !important;
+}
+  
+  .dropdown-with-dots::before {
+    content: '⋮';
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: white !important;
+  }
+
+#dropdown-menu{
+    background-color: transparent !important;
+    border: none !important;
+  }
