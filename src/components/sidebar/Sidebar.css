@@ -1,5 +1,5 @@
 .sidebar {
-  background-color: black;
+  background-color:  #0c0a09;
   padding-top: 50px;
   height: 100vh;
 }
@@ -17,10 +17,19 @@
   max-width: 30px;
   padding: 0;
 } */
+.gradient{
+  padding:10px 10px 0 30px;
+  background: linear-gradient(45deg, #4000ff, #9d00ff, #006eff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 600;
+  color: transparent;
+}
 
 .userName{
-  padding: 18px 20px;
+  padding: 10px 20px 18px 18px;
   text-align: center;
+  font-weight: bold;
 }
 .menu__list {
   padding-left: 0;

@@ -19,7 +19,8 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <nav className="menu">
-        <div className="userName">Welcome {currentUser?.displayName}</div>
+      <h3 className="gradient">RapidBeats</h3>
+        <div className="userName">Welcome {currentUser?.displayName} !!</div>
         <ul className="menu__list">
           {menuItems?.map((item, index) => {
             return (

@@ -7,7 +7,7 @@
   display: none !important;
 }
   .main {
-    background-image: linear-gradient(rgba(0,0,0,.8),#121212);  
+    background: linear-gradient(to right, #0c0a09, #1c1917, #292524);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 40px;

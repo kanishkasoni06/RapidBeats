@@ -18,7 +18,7 @@ const Auth = () => {
   return (
     <div className="background">
       <nav className="flex">
-        <h3 className="gradient">Musically</h3>
+        <h3 className="gradient">RapidBeats</h3>
         <button className="btnAuth" onClick={handleSignInWithGoogle}>
           Get Started
         </button>
